@@ -1,6 +1,7 @@
 # The Pirate Router
 
 *UNDER DEVELOPMENT*
+
 This lib doesn't work. It's still being developed.
 The examples below are just the way it should work
 once its complete.
@@ -13,12 +14,13 @@ Usage:
 ```js
 import Router from 'the-pirate-router'
 
-router.setServer('https://example.exampleUrl')
 const router = new Router({
     User: {
         register: 'user/register'
     }
 })
+
+router.setServer('https://example.exampleUrl')
 
 const form = { user: 'my-user', pwd: 'password123' }
 router.post('User.register', form) // Nail it!!!
