@@ -1,5 +1,10 @@
 # The Pirate Router
 
+*UNDER DEVELOPMENT*
+This lib doesn't work. It's still being developed.
+The examples below are just the way it should work
+once its complete.
+
 A key-access based router for http client
 requests. You register some keys and a route and it
 gets it!
