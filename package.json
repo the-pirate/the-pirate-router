@@ -1,0 +1,11 @@
+{
+  "name": "the-pirate-router",
+  "version": "0.0.1",
+  "description": "A key-access based http client router",
+  "main": "src/index.js",
+  "author": "Patrick Stival Chaerke (trickstival)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
